@@ -51,7 +51,7 @@ public class AdivinaApp extends Application {
 		String dato = numeroField.getText();
 		try {
 		int num=(Integer.parseInt(dato));
-		if (num>0 && num <200) {
+		if (num>0 && num <=100) {
 		if (num==numAleatorio) {
 			Alert alert = new Alert(AlertType.INFORMATION);
 			alert.setTitle("Adivina App");
