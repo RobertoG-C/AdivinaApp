@@ -6,6 +6,7 @@
     <properties>
 		<maven.compiler.target>11</maven.compiler.target>
 		<maven.compilet.source>11</maven.compilet.source>
+	    	<exec.mainClass>dad.main.Main</exec.mainClass>
 	</properties>
 	<dependencies>
 			<dependency>
